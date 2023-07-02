@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+:root{
+  --color-btn:red;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body{    
+  /* background: blueviolet; */
+  font-family: montserrat;
+}
+section {
+display: grid;
+place-items: center;
+height: 100vh;
+}
+.section-header{
+  position: relative;
+  padding-bottom: 10px;
+  text-align: center;
+  font-weight: 900;
+  padding-bottom: 25px;
+  color: black;
+}
+/* .section-header:after{
+  content: '';
+  height: 3px;
+  width: 200px;
+  position: absolute;
+  bottom: 0;
+  left: calc(50% - 100px);
+  background: #fff;
+} */
+.section-header span {
+display: block;
+font-size: 15px;
+font-weight: 300;
+}
+.testimonials{
+  /* max-width: 1000px; */
+  /* padding: 0 15px 50px; */
+  /* margin: 0 auto 80px auto; */
+}
+.single-item{
+  /* background: #fff; */
+  color: #111;
+  padding: 15px;
+  margin: 50px 15px;
+}
+.profile{
+  margin-bottom: 30px;
+  text-align: center;    
+}
+.img-area {
+margin: 0 15px 15px 15px;
+}
+.img-area img {
+height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 7px solid blueviolet;
+}
+.content{
+  font-size: 18px;
+}
+.content p {
+text-align: justify;
+}
+
+.socials i {
+margin-right: 25px;
+}
+.bio h4 {
+font-family: 'Berkshire Swash', cursive;
+}
+

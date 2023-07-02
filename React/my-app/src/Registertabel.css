@@ -1,0 +1,81 @@
+
+ 
+   .text-muted{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+ 
+   }
+   .scrollable-card {
+     height: 700px; 
+     overflow: auto;
+   }
+ 
+   .list-group-flush{
+     font-weight: bold;
+   }
+ 
+
+  
+   .privacy_content_div{
+    height:calc(100vh - 350px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 3px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+   
+
+  .cardbody{
+    /* background-color: #fff; */
+    border-radius: 10px !important;
+    /* border: none; */
+    position: relative !important;
+    margin-bottom: 10px !important;
+  
+  }
+  .footer{
+    position: absolute;
+    width: 52.4vw;
+    bottom: 0px;
+    /* height: 60px; */
+    background-color: white !important;
+  }
+  
+
+
+.cardbody.active-card {
+
+  border: 2px solid rgb(104, 104, 101);
+}
+
+/* .container{
+
+  position: relative; 
+position: absolute; 
+bottom: 0; 
+} */
+
+.flex-wrapper {
+  display: flex;
+  min-height: 50vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.boarder_change{
+
+  border: 1px solid #ced4da;
+
+}

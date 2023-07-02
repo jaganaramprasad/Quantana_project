@@ -1,0 +1,72 @@
+
+
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url("BackgroundImage.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  
+}
+
+.button{
+
+  border-radius: "5px";
+}
+
+
+
+.field{
+    height: "100px";
+    background: #FFFFFF;
+}
+
+#login_email,#password{
+
+height: 0.4375em !important;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+color: #4F4F4F;
+
+}
+
+.login_container {
+
+  background: #fff;
+  max-width: 400px;   
+  width: 100%;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
+  margin-top: 100px;
+}
+
+
+@media (max-width: 600px) {
+ 
+  .login_container {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .form-label {
+    font-size: 12px;
+  }
+
+  #login_email,
+  #password {
+    height: 28px !important;
+  }
+}
